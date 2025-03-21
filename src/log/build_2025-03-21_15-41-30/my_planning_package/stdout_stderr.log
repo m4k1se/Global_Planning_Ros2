@@ -1,0 +1,45 @@
+running egg_info
+creating ../build/my_planning_package/my_planning_package.egg-info
+writing ../build/my_planning_package/my_planning_package.egg-info/PKG-INFO
+writing dependency_links to ../build/my_planning_package/my_planning_package.egg-info/dependency_links.txt
+writing entry points to ../build/my_planning_package/my_planning_package.egg-info/entry_points.txt
+writing requirements to ../build/my_planning_package/my_planning_package.egg-info/requires.txt
+writing top-level names to ../build/my_planning_package/my_planning_package.egg-info/top_level.txt
+writing manifest file '../build/my_planning_package/my_planning_package.egg-info/SOURCES.txt'
+reading manifest file '../build/my_planning_package/my_planning_package.egg-info/SOURCES.txt'
+writing manifest file '../build/my_planning_package/my_planning_package.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/renth/maping_ws/src/build/my_planning_package/build
+creating /home/renth/maping_ws/src/build/my_planning_package/build/lib
+creating /home/renth/maping_ws/src/build/my_planning_package/build/lib/my_planning_package
+copying my_planning_package/route_visualizator.py -> /home/renth/maping_ws/src/build/my_planning_package/build/lib/my_planning_package
+copying my_planning_package/lane_waypoint_planner.py -> /home/renth/maping_ws/src/build/my_planning_package/build/lib/my_planning_package
+copying my_planning_package/ros2_lane_waypoint_planner.py -> /home/renth/maping_ws/src/build/my_planning_package/build/lib/my_planning_package
+copying my_planning_package/lane_graph_planner.py -> /home/renth/maping_ws/src/build/my_planning_package/build/lib/my_planning_package
+copying my_planning_package/__init__.py -> /home/renth/maping_ws/src/build/my_planning_package/build/lib/my_planning_package
+running install
+running install_lib
+creating /home/renth/maping_ws/src/install/my_planning_package/lib/python3.10/site-packages/my_planning_package
+copying /home/renth/maping_ws/src/build/my_planning_package/build/lib/my_planning_package/route_visualizator.py -> /home/renth/maping_ws/src/install/my_planning_package/lib/python3.10/site-packages/my_planning_package
+copying /home/renth/maping_ws/src/build/my_planning_package/build/lib/my_planning_package/lane_waypoint_planner.py -> /home/renth/maping_ws/src/install/my_planning_package/lib/python3.10/site-packages/my_planning_package
+copying /home/renth/maping_ws/src/build/my_planning_package/build/lib/my_planning_package/ros2_lane_waypoint_planner.py -> /home/renth/maping_ws/src/install/my_planning_package/lib/python3.10/site-packages/my_planning_package
+copying /home/renth/maping_ws/src/build/my_planning_package/build/lib/my_planning_package/lane_graph_planner.py -> /home/renth/maping_ws/src/install/my_planning_package/lib/python3.10/site-packages/my_planning_package
+copying /home/renth/maping_ws/src/build/my_planning_package/build/lib/my_planning_package/__init__.py -> /home/renth/maping_ws/src/install/my_planning_package/lib/python3.10/site-packages/my_planning_package
+byte-compiling /home/renth/maping_ws/src/install/my_planning_package/lib/python3.10/site-packages/my_planning_package/route_visualizator.py to route_visualizator.cpython-310.pyc
+byte-compiling /home/renth/maping_ws/src/install/my_planning_package/lib/python3.10/site-packages/my_planning_package/lane_waypoint_planner.py to lane_waypoint_planner.cpython-310.pyc
+byte-compiling /home/renth/maping_ws/src/install/my_planning_package/lib/python3.10/site-packages/my_planning_package/ros2_lane_waypoint_planner.py to ros2_lane_waypoint_planner.cpython-310.pyc
+byte-compiling /home/renth/maping_ws/src/install/my_planning_package/lib/python3.10/site-packages/my_planning_package/lane_graph_planner.py to lane_graph_planner.cpython-310.pyc
+byte-compiling /home/renth/maping_ws/src/install/my_planning_package/lib/python3.10/site-packages/my_planning_package/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/renth/maping_ws/src/install/my_planning_package/share/ament_index
+creating /home/renth/maping_ws/src/install/my_planning_package/share/ament_index/resource_index
+creating /home/renth/maping_ws/src/install/my_planning_package/share/ament_index/resource_index/packages
+copying resource/my_planning_package -> /home/renth/maping_ws/src/install/my_planning_package/share/ament_index/resource_index/packages
+copying package.xml -> /home/renth/maping_ws/src/install/my_planning_package/share/my_planning_package
+running install_egg_info
+Copying ../build/my_planning_package/my_planning_package.egg-info to /home/renth/maping_ws/src/install/my_planning_package/lib/python3.10/site-packages/my_planning_package-0.0.0-py3.10.egg-info
+running install_scripts
+Installing lane_way_point_planner script to /home/renth/maping_ws/src/install/my_planning_package/lib/my_planning_package
+Installing route_visualizator script to /home/renth/maping_ws/src/install/my_planning_package/lib/my_planning_package
+writing list of installed files to '/home/renth/maping_ws/src/build/my_planning_package/install.log'

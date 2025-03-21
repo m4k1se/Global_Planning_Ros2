@@ -1,0 +1,5 @@
+[console_scripts]
+map_monitor = my_mapping_package.map_monitor:main
+map_visualizator = my_mapping_package.map_visualizator:main
+monitor_visualizator = my_mapping_package.monitor_visualizator:main
+

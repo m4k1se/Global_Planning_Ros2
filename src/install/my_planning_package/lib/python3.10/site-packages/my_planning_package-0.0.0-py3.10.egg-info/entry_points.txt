@@ -1,0 +1,4 @@
+[console_scripts]
+lane_way_point_planner = my_planning_package.lane_way_point_planner:main
+route_visualizator = my_planning_package.route_visualizator:main
+

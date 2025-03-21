@@ -1,0 +1,5 @@
+[console_scripts]
+lane_waypoint_planner = my_planning_package.lane_waypoint_planner:main
+pose_goal_publisher = my_planning_package.pose_goal_publisher:main
+route_visualizator = my_planning_package.route_visualizator:main
+

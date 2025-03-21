@@ -1,0 +1,47 @@
+[0.403s] Invoking command in '/home/renth/maping_ws/src/my_planning_package': CONDA_PROMPT_MODIFIER=(demo1) PYTHONPATH=/home/renth/maping_ws/src/build/my_planning_package/prefix_override:/home/renth/anaconda3/envs/demo1/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/renth/maping_ws/src/install/my_planning_package/lib/python3.10/site-packages:${PYTHONPATH} /home/renth/anaconda3/envs/demo1/bin/python -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/my_planning_package build --build-base /home/renth/maping_ws/src/build/my_planning_package/build install --record /home/renth/maping_ws/src/build/my_planning_package/install.log --single-version-externally-managed install_data
+[0.501s] running egg_info
+[0.501s] creating ../build/my_planning_package/my_planning_package.egg-info
+[0.501s] writing ../build/my_planning_package/my_planning_package.egg-info/PKG-INFO
+[0.501s] writing dependency_links to ../build/my_planning_package/my_planning_package.egg-info/dependency_links.txt
+[0.502s] writing entry points to ../build/my_planning_package/my_planning_package.egg-info/entry_points.txt
+[0.502s] writing requirements to ../build/my_planning_package/my_planning_package.egg-info/requires.txt
+[0.502s] writing top-level names to ../build/my_planning_package/my_planning_package.egg-info/top_level.txt
+[0.502s] writing manifest file '../build/my_planning_package/my_planning_package.egg-info/SOURCES.txt'
+[0.502s] reading manifest file '../build/my_planning_package/my_planning_package.egg-info/SOURCES.txt'
+[0.503s] writing manifest file '../build/my_planning_package/my_planning_package.egg-info/SOURCES.txt'
+[0.503s] running build
+[0.503s] running build_py
+[0.503s] creating /home/renth/maping_ws/src/build/my_planning_package/build
+[0.503s] creating /home/renth/maping_ws/src/build/my_planning_package/build/lib
+[0.503s] creating /home/renth/maping_ws/src/build/my_planning_package/build/lib/my_planning_package
+[0.503s] copying my_planning_package/route_visualizator.py -> /home/renth/maping_ws/src/build/my_planning_package/build/lib/my_planning_package
+[0.503s] copying my_planning_package/lane_waypoint_planner.py -> /home/renth/maping_ws/src/build/my_planning_package/build/lib/my_planning_package
+[0.503s] copying my_planning_package/ros2_lane_waypoint_planner.py -> /home/renth/maping_ws/src/build/my_planning_package/build/lib/my_planning_package
+[0.503s] copying my_planning_package/lane_graph_planner.py -> /home/renth/maping_ws/src/build/my_planning_package/build/lib/my_planning_package
+[0.503s] copying my_planning_package/__init__.py -> /home/renth/maping_ws/src/build/my_planning_package/build/lib/my_planning_package
+[0.503s] running install
+[0.504s] running install_lib
+[0.504s] creating /home/renth/maping_ws/src/install/my_planning_package/lib/python3.10/site-packages/my_planning_package
+[0.504s] copying /home/renth/maping_ws/src/build/my_planning_package/build/lib/my_planning_package/route_visualizator.py -> /home/renth/maping_ws/src/install/my_planning_package/lib/python3.10/site-packages/my_planning_package
+[0.504s] copying /home/renth/maping_ws/src/build/my_planning_package/build/lib/my_planning_package/lane_waypoint_planner.py -> /home/renth/maping_ws/src/install/my_planning_package/lib/python3.10/site-packages/my_planning_package
+[0.504s] copying /home/renth/maping_ws/src/build/my_planning_package/build/lib/my_planning_package/ros2_lane_waypoint_planner.py -> /home/renth/maping_ws/src/install/my_planning_package/lib/python3.10/site-packages/my_planning_package
+[0.504s] copying /home/renth/maping_ws/src/build/my_planning_package/build/lib/my_planning_package/lane_graph_planner.py -> /home/renth/maping_ws/src/install/my_planning_package/lib/python3.10/site-packages/my_planning_package
+[0.504s] copying /home/renth/maping_ws/src/build/my_planning_package/build/lib/my_planning_package/__init__.py -> /home/renth/maping_ws/src/install/my_planning_package/lib/python3.10/site-packages/my_planning_package
+[0.504s] byte-compiling /home/renth/maping_ws/src/install/my_planning_package/lib/python3.10/site-packages/my_planning_package/route_visualizator.py to route_visualizator.cpython-310.pyc
+[0.504s] byte-compiling /home/renth/maping_ws/src/install/my_planning_package/lib/python3.10/site-packages/my_planning_package/lane_waypoint_planner.py to lane_waypoint_planner.cpython-310.pyc
+[0.505s] byte-compiling /home/renth/maping_ws/src/install/my_planning_package/lib/python3.10/site-packages/my_planning_package/ros2_lane_waypoint_planner.py to ros2_lane_waypoint_planner.cpython-310.pyc
+[0.506s] byte-compiling /home/renth/maping_ws/src/install/my_planning_package/lib/python3.10/site-packages/my_planning_package/lane_graph_planner.py to lane_graph_planner.cpython-310.pyc
+[0.506s] byte-compiling /home/renth/maping_ws/src/install/my_planning_package/lib/python3.10/site-packages/my_planning_package/__init__.py to __init__.cpython-310.pyc
+[0.506s] running install_data
+[0.506s] creating /home/renth/maping_ws/src/install/my_planning_package/share/ament_index
+[0.507s] creating /home/renth/maping_ws/src/install/my_planning_package/share/ament_index/resource_index
+[0.507s] creating /home/renth/maping_ws/src/install/my_planning_package/share/ament_index/resource_index/packages
+[0.507s] copying resource/my_planning_package -> /home/renth/maping_ws/src/install/my_planning_package/share/ament_index/resource_index/packages
+[0.507s] copying package.xml -> /home/renth/maping_ws/src/install/my_planning_package/share/my_planning_package
+[0.507s] running install_egg_info
+[0.507s] Copying ../build/my_planning_package/my_planning_package.egg-info to /home/renth/maping_ws/src/install/my_planning_package/lib/python3.10/site-packages/my_planning_package-0.0.0-py3.10.egg-info
+[0.507s] running install_scripts
+[0.517s] Installing lane_way_point_planner script to /home/renth/maping_ws/src/install/my_planning_package/lib/my_planning_package
+[0.517s] Installing route_visualizator script to /home/renth/maping_ws/src/install/my_planning_package/lib/my_planning_package
+[0.517s] writing list of installed files to '/home/renth/maping_ws/src/build/my_planning_package/install.log'
+[0.533s] Invoked command in '/home/renth/maping_ws/src/my_planning_package' returned '0': CONDA_PROMPT_MODIFIER=(demo1) PYTHONPATH=/home/renth/maping_ws/src/build/my_planning_package/prefix_override:/home/renth/anaconda3/envs/demo1/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/renth/maping_ws/src/install/my_planning_package/lib/python3.10/site-packages:${PYTHONPATH} /home/renth/anaconda3/envs/demo1/bin/python -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/my_planning_package build --build-base /home/renth/maping_ws/src/build/my_planning_package/build install --record /home/renth/maping_ws/src/build/my_planning_package/install.log --single-version-externally-managed install_data
